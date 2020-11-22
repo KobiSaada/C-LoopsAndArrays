@@ -1,4 +1,7 @@
 
+CC=gcc
+FLAGS= -Wall -g
+
 all: myBank.o main.o
 	gcc -Wall -o all main.o myBank.o
 
