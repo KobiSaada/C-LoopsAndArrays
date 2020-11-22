@@ -1,5 +1,4 @@
-#ifndef _MYBANK_H_
-#define _MYBANK_H_
+
 
 	void openAccount();
 	void balanceInquiry();
@@ -10,4 +9,4 @@
 	void print();
 	void exitAndClose();
 
-#endif
+
