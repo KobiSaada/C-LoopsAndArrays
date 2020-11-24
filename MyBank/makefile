@@ -1,17 +1,25 @@
-CC=gcc
-CFLAG=-Wall
+CC = gcc
+AR = ar 
+CFLAGS = -Wall
 
 
-all: myBank.o main.o
-	gcc -Wall -o all main.o myBank.o
+all: myBanks MYBANK
 
-main.o: main.c myBank.h
-	gcc -Wall -c main.c
+myBanks:libmyBank.a
+ 
+main.o:main.c myBank.h
+	$(CC) $(CFLAGS) -c main.c
+	
+MYBANK:main.o libmyBank.a
+	$(CC) $(CFLAGS) -o MYBANK main.o libmyBank.a
+	
+libmyBank.a:myBank.o myBank.h
+	$(AR) -rcs libmyBank.a myBank.o myBank.h		
 
 myBank.o: myBank.c myBank.h
-	gcc -Wall -c myBank.c	
+	$(CC) $(CFLAGS) -c myBank.c	
 
 .PHONY: clean all 
 
 clean:
-	rm -f *.o all
+	rm *.o *.a MYBANK
