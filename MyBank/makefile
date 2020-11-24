@@ -1,3 +1,6 @@
+CC=gcc
+CFLAG=-Wall
+
 
 all: myBank.o main.o
 	gcc -Wall -o all main.o myBank.o
