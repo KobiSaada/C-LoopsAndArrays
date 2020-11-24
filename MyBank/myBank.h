@@ -1,5 +1,4 @@
 #include <stdio.h>
-#ifndef _MYBANK_H_
 #define _MYBANK_H_
 
 	void openAccount();
@@ -12,4 +11,4 @@
 	void exitAndClose();
 
 
-#endif
+
