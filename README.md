@@ -1,12 +1,12 @@
 # Title
 # C-LoopsAndArrays
 # Table of contents
-General info
-Screenshots
-Setup
-Features
-Status
-Contact
+* General info
+* Screenshots
+* Setup
+*Features
+*Status
+*Contact
 # General info
 Add more general information about project. What the purpose of the project is? Motivation?
 
