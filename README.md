@@ -2,12 +2,10 @@
 # C-LoopsAndArrays
 
 # Table of contents
-* Description of programs
-* Screenshots
-* Setup
-* Features
-* Status
-* Contact
+ * Description of programs
+ 
+ * Screenshots
+
 # Description of programs
 Ex1 in C programing 
 In this project I carried out as part of a mission at a prosperous university that simulates a bank with the following actions:
