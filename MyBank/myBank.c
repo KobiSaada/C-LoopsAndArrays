@@ -149,7 +149,7 @@ void withdrawal(){
 
 void activateCloseAccount(int account_index) {
 	accounts[account_index][OPEN] = 0;
-	accounts[account_index][AMOUNT] = 0;
+	//accounts[account_index][AMOUNT] = 0;//It was said not to reset the account at closing
 }
 
 void closeAccount(){
