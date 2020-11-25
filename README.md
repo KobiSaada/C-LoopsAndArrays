@@ -12,7 +12,7 @@
 Ex1 in C programing 
 In this project I carried out as part of a mission at a prosperous university that simulates a bank with the following actions:
 
-	* openAccount -This function opens a new account and saves the initial deposit amount and prints the new    account number Account opening is only possible if there are less than 50 accounts open.
+  * openAccount -This function opens a new account and saves the initial deposit amount and prints the new    account number Account opening is only possible if there are less than 50 accounts open.
  
   * balanceInquiry -This function is responsible for clarifying the balance, receiving an account number      and returning the balance only if there is an   open account.
   
