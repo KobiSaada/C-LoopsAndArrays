@@ -4,9 +4,10 @@
 * General info
 * Screenshots
 * Setup
-*Features
-*Status
-*Contact
+* Features
+* Status
+* Contact
+
 # General info
 Add more general information about project. What the purpose of the project is? Motivation?
 
