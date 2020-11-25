@@ -1,6 +1,6 @@
 
 # C-LoopsAndArrays
-@Author : KobiSaada
+Author : KobiSaada
 # Table of contents
  * Description of programs
  
