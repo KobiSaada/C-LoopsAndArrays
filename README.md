@@ -4,7 +4,7 @@ Author : KobiSaada
 # Table of contents
  * Description of programs
  
- * IMAGE
+ 
 
 # Description of programs
 Ex1 in C programing 
@@ -27,7 +27,7 @@ In this project I carried out as part of a mission at a prosperous university th
   * exitAndClose -This function is responsible for closing all open accounts and exiting the program.
 
 
-# IMAGE
+
 ![Bank](https://user-images.githubusercontent.com/73976733/100130990-1bb3cf00-2e8c-11eb-9735-f0d974d00132.jpg)
 
 
